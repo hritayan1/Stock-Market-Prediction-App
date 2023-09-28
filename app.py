@@ -9,7 +9,7 @@ from plotly import graph_objs as go
 START = "2015-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
 
-st.title("Stock Prediction App")
+st.title("Stock Market Prediction App")
 
 stocks = ("AAPL","GOOG","MSFT","GME","TSLA")
 selected_stock = st.selectbox("Select dataset for prediction",stocks)
